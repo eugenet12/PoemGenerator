@@ -1,0 +1,29 @@
+##########################################
+# Heemin Seog & Eugene Tang
+# COS 401 - Sonnet Generation
+# Main script
+##########################################
+echo "Lets generate a poem!"
+echo "Which corpus would you like to use to train the generator?"
+echo "your options are [shakespeare/sonnets/brown]:"
+read corpus
+
+echo "Please provide a seed word you would like to test:"
+echo "The seed word must occur in the corpus used to train the model. [example: love]:"
+read topic
+
+if [[ $corpus == "brown" ]]; then
+    echo "Selected brown with seed: $topic"
+    python process_corpus.py brown $topic
+    echo "Your poems are in brown-text-poems.txt"
+elif [[ $corpus == "sonnets" ]]; then
+	echo "Selected sonnets with seed: $topic"
+	python process_corpus.py sonnets $topic
+	echo "Your poems are in sonnet-text-poems.txt"
+elif [[ $corpus == "shakespeare" ]]; then
+	echo "Selected shakespeare with seed: $topic"
+	python shakespeare.py $topic
+	echo "Your poems are in shakespeare-text-poems.txt"
+else
+    echo "please provide a valid corpus"
+fi

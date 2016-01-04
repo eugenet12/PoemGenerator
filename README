@@ -1,0 +1,22 @@
+##########################################
+# To run
+##########################################
+To run the program, run ./RunMe and follow the prompts.
+
+For each corpus, ./RunMe creates six sonnets, one for 
+each possible combination of the different methods used
+to create the sonnets
+	-Generation: HMM v. Markov model
+	-Semantics: First-line, first-seed v. Best-line, first-seed v. best-line, best-seed
+
+Note: due to a very rare library bug, occasionally the script may fail. 
+If this occurs please just rerun the script.
+
+##########################################
+# File organization
+##########################################
+Markov Models: markov.py, hmm.py
+HTML processing: process_html.py, process_html2.py
+Corpora preprocessing: shakespeare.py, process_corpus.py
+Semantics: sonnet.py
+Modified Proununciation dictionary: pronunciation.txt
