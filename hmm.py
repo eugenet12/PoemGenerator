@@ -1,12 +1,3 @@
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# Implements a pure second-order markov model
-# with the words as the visible data
-# and the POS as the hidden variable
-##########################################
-
 from collections import Counter
 import nltk
 import random

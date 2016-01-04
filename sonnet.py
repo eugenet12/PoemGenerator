@@ -1,12 +1,3 @@
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# A wrapper class for the markov models which
-# provides options to generate purely from markov model,
-# use seed-line, and/or use seed-word
-##########################################
-
 import gensim
 import random
 from nltk.corpus import stopwords

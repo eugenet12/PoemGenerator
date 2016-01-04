@@ -1,13 +1,3 @@
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# Used to collect the necessary data structures
-# for brown corpus and sonnets.org corpus.
-# Also draws on markov.py, hmm.py, and sonnet.py
-# to generate the poems
-##########################################
-
 from nltk.corpus import brown
 from nltk.corpus import cmudict
 from collections import Counter

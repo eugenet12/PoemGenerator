@@ -1,11 +1,3 @@
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# Implements a pure first-order markov model
-# on the words
-##########################################
-
 from collections import Counter
 import nltk
 import random

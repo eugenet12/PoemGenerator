@@ -1,11 +1,3 @@
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# Used to clean the html files containing
-# the shakespearean sonnets.
-##########################################
-
 from xml.dom import minidom
 from os import walk
 

@@ -1,16 +1,3 @@
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# Used to process the shakespeare sonnets to
-# create the data structures needed to use
-# our Markov Models.
-# Also draws on markov.py, hmm.py, and sonnet.py
-# to generate the poems
-#
-# dependent on pronunciation.txt
-##########################################
-
 import sys
 import itertools
 import nltk

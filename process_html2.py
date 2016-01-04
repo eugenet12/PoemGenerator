@@ -1,12 +1,4 @@
 # -*- coding: utf-8 -*-
-##########################################
-# Heemin Seog & Eugene Tang
-# COS 401 - Sonnet Generation
-#
-# Used to clean the html files containing
-# the poems from sonnets.org.
-##########################################
-
 from os import walk
 import re
 import string
